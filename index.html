@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de caloria</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<form id="form">
+
+<label for="sexo">Seu sexo <br>
+    <select name="select" id="sexo">
+        <option value="Masculino">Masculino</option>
+        <option value="Feminino">Feminino</option>
+    </select>
+</label><br>
+
+<label for="idade">Sua idade <br>
+    <input type="number"  min="1" max="100" id="idade">
+</label>
+
+</label><br>
+
+<label for="peso">Seu peso <br>
+    <input type="number"  placeholder="Em KG" id="peso">
+</label><br>
+
+<label for="altura">Sua altura<br>
+    <input type="number" placeholder="Em CM" id="altura">
+</label><br>
+
+<label for="fisica">Seu nivel de atividade fisica<br>
+    <select name="select" id="fisica" >
+        <option value="1.2">Sendetário</option>
+        <option value="1.375">Pouca atividade</option>
+        <option value="1.55">Atividade moderada</option>
+        <option value="1.725">Atividade intensa</option>
+        <option value="1.9">Atividade muito intensa</option>
+    </select>
+</label><br> 
+    
+    <button type="submit" id="button">Calcular</button>
+
+</form>
+
+<div class="result" id="result"></div>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>

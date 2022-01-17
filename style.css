@@ -1,0 +1,57 @@
+body{
+    background-color: #252425;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+form input {
+    background-color:#19181C;
+    width: 300px;
+    height: 20px;
+    color: white;
+   
+}
+
+form select{
+    background-color:#19181C;
+    width: 300px;
+    height: 20px;
+    color: rgb(160, 160, 160);
+}
+
+form label {
+    color: white;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times,  serif;
+}
+
+form button {
+    width: 300px;
+    height: 35px;
+    background-image: linear-gradient( to right, red, rgb(224, 92, 92), rgb(255, 145, 0), yellow );
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.result {
+    text-align: center;
+    color: white;
+    font-size: 13px;
+}
+
+.result strong {
+    color: red;
+}
+
+.result ul{
+    list-style: none;
+}
+
+
